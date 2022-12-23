@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: #000000;
+    font-size: 40px;
+    font-style: italic;
+    background-color: #8a888800;
+    
+}
+h2{
+    font-size: 30px;
+    color: #ac9326;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+h3{
+    color: rgb(82, 10, 150);
+    font-size: 25px;
+}
+h4{
+    color: rgb(82, 10, 150);
+}
+.container-fluid{
+    background-color: #fcf29d; 
+}
+form .form-control{
+    background-color: #f8f8f8;
+}
+.quem-somos{
+    padding-left: 20px;
+}
+.card{
+    margin-right: 30px;
+    margin-left: 40px;
+    padding: 10px;
+   
+
+}
+.nosso-time{
+    text-align: center;
+    margin-top: 20px;
+}
+.quem-somos{
+	min-height: 100vh;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);		
+	align-items: center;
+	grid-gap: 5rem;
+    padding: 100px;
+    background: #fcf29d ;
+}
+.quem-somos-text h1{
+	margin: 60px 0 25px 0;
+	font-size: 50px; 
+    color: #ac9326;
+    text-align: center;
+}
+.quem-somos-text p{
+    margin-left: 20px;
+	font-size: 60px;
+    color: #ac9326;
+    text-align: center;
+}
+.quem-somos-text p{
+	font-size: var(--p-font);
+	color: #000000;
+	line-height: 25px;
+	margin-bottom: 	20px;
+}
+.quem-somos-image{
+    padding: 90px;
+}
+.times-itens{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(210px, auto));
+	grid-gap: 2rem;
+	align-items: center;
+	text-align: center;
+}
+.time-item{
+	padding: 50px;
+}
+.time-item.image img{
+	max-width: 100%;
+	width: 90px;
+	height: auto;
+	margin-bottom: 20px;
+}
+.time-item h4{
+	font-size: 20px;
+	margin-bottom: 20px; 
+}
+.time-item p{
+	font-size: var(--p-font);
+	color: var(rgb(104, 104, 104));
+	line-height: 20px;
+}
+legend{
+    color:rgb(82, 10, 150);
+    font-weight: bold;
+    text-align: center;
+}
+label{
+    color: #a37d14;
+    font-size: 20px;
+}
+.dados-pessoais{
+    color: rgb(82, 10, 150);
+    font-size: 20px;
+    padding: 20px;
+}
+.dados-novidades{
+    color: rgb(82, 10, 150);
+    font-size: 20px;
+    padding: 20px;
+}
+button{
+    padding: 20px;
+}
+fieldset{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    row-gap: 20px;
+}
+footer{
+    height: 190px;
+    text-align: center;  
+    background: #000000; 
+}
+div a .bi{
+    font-size: 30px;
+    color: #ac9326;
+}
+.contato-redes{
+    font-size: 20px;
+    color: #ac9326;
+    line-height: 25px;
+}
+.direitos{
+    font-size: 15px;
+    color: aliceblue;
+    line-height: 10px;
+    padding-bottom: 20px;
+}
+
+
+
